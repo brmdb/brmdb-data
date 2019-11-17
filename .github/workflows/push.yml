@@ -24,7 +24,7 @@ jobs:
           yarn link
 
       - name: Export the data
-        run: brmdb export
+        run: ./brmdb-cli/bin/brmdb export
 
       - name: Add .nojekkyll
         run: touch ./public/.nojekyll

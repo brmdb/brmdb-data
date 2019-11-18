@@ -26,6 +26,9 @@ jobs:
       - name: Export the data
         run: ./brmdb-cli/bin/brmdb export
 
+      - name: Copy the images
+        run: ls images | xargs -I {} cp -a images/{} public/{}/images
+
       - name: Add .nojekkyll
         run: touch ./public/.nojekyll
 

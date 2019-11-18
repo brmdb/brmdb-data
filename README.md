@@ -21,6 +21,7 @@ You can do requests, like in an API, within the following routes.
 - GET [/publishers/list.json](https://brmdb.github.io/brmdb-data/publishers/list.json): Index all publishers with their ID and name, ideal for search.
 - GET [/publishers/all.json](https://brmdb.github.io/brmdb-data/publishers/all.json): List all publishers with all attributes.
 - GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/1.json): Get the information from the publisher with id `<id>`.
+- GET [/publishers/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/publishers/images/1.png): Get the logo of the publisher with id `<id>`.
 
 ### Actions
 

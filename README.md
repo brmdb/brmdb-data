@@ -23,6 +23,12 @@ You can do requests, like in an API, within the following routes.
 - GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/1.json): Get the information from the publisher with id `<id>`.
 - GET [/publishers/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/publishers/images/1.png): Get the logo of the publisher with id `<id>`.
 
+### Labels
+
+- GET [/labels/all.json](https://brmdb.github.io/brmdb-data/labels/all.json): List all labels with all attributes.
+- GET [/labels/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/labels/1.json): Get the information from the label with id `<id>`.
+- GET [/labels/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/labels/images/1.png): Get the logo of the label with id `<id>`.
+
 ### Actions
 
 - GET [/actions/all.json](https://brmdb.github.io/brmdb-data/actions/all.json): List all actions performed in the database.

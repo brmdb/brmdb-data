@@ -22,6 +22,11 @@ You can do requests, like in an API, within the following routes.
 - GET [/publishers/all.json](https://brmdb.github.io/brmdb-data/publishers/all.json): List all publishers with all attributes.
 - GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/1.json): Get the information from the publisher with id `<id>`.
 
+### Actions
+
+- GET [/actions/all.json](https://brmdb.github.io/brmdb-data/actions/all.json): List all actions performed in the database.
+- GET [/actions/latest.json](https://brmdb.github.io/brmdb-data/actions/latest.json): List the last twenty actions performed in the database.
+
 ## Data origin
 
 The data is obtained using the following sites:

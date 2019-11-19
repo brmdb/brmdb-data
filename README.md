@@ -8,7 +8,7 @@ This repository contains all the data of the [BrMDb] project.
 
 The data is generated using the [database.sqlite](database.sqlite) file, that is manipulated using the [brmdb-cli].
 
-It's available in JSON format and is available at the `gh-pages` branch.
+It's available in JSON format at the `gh-pages` branch.
 
 [brmdb-cli]: https://github.com/BrMDb/brmdb-cli
 
@@ -20,14 +20,14 @@ You can do requests, like in an API, within the following routes.
 
 - GET [/publishers/list.json](https://brmdb.github.io/brmdb-data/publishers/list.json): Index all publishers with their ID and name, ideal for search.
 - GET [/publishers/all.json](https://brmdb.github.io/brmdb-data/publishers/all.json): List all publishers with all attributes.
-- GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/1.json): Get the information from the publisher with id `<id>`.
-- GET [/publishers/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/publishers/images/1.png): Get the logo of the publisher with id `<id>`.
+- GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/c3b11ae5-0e74-4354-a92b-d0dd3d211ca5.json): Get the information from the publisher with id `<id>`.
+- GET [/publishers/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/publishers/images/c3b11ae5-0e74-4354-a92b-d0dd3d211ca5.png): Get the logo of the publisher with id `<id>`.
 
 ### Labels
 
 - GET [/labels/all.json](https://brmdb.github.io/brmdb-data/labels/all.json): List all labels with all attributes.
-- GET [/labels/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/labels/1.json): Get the information from the label with id `<id>`.
-- GET [/labels/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/labels/images/1.png): Get the logo of the label with id `<id>`.
+- GET [/labels/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/labels/b041096a-cc16-4d44-b43e-d3fbafa94a42.json): Get the information from the label with id `<id>`.
+- GET [/labels/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/labels/images/b041096a-cc16-4d44-b43e-d3fbafa94a42.png): Get the logo of the label with id `<id>`.
 
 ### Actions
 

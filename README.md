@@ -31,9 +31,9 @@ You can do requests, like in an API, within the following routes.
 
 ### People
 
-- GET [/people/all.json](https://brmdb.github.io/brmdb-data/labels/all.json): List all people with all attributes.
-- GET [/people/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/labels/6978ec19-337a-485d-8339-b3eaa7b8daf4.json): Get the information from the person with id `<id>`.
-- GET [/people/images/&lt;id&gt;.png](#): Get the picture of the person with id `<id>`.
+- GET [/people/all.json](https://brmdb.github.io/brmdb-data/people/all.json): List all people with all attributes.
+- GET [/people/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/people/6978ec19-337a-485d-8339-b3eaa7b8daf4.json): Get the information from the person with id `<id>`.
+- GET [/people/images/&lt;id&gt;.png](#people): Get the picture of the person with id `<id>`.
 
   *For privacy, it's not available for every person*.
 

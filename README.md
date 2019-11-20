@@ -33,9 +33,14 @@ You can do requests, like in an API, within the following routes.
 
 - GET [/people/all.json](https://brmdb.github.io/brmdb-data/people/all.json): List all people with all attributes.
 - GET [/people/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/people/6978ec19-337a-485d-8339-b3eaa7b8daf4.json): Get the information from the person with id `<id>`.
-- GET [/people/images/&lt;id&gt;.png](#people): Get the picture of the person with id `<id>`.
+- GET [/people/images/&lt;id&gt;.png](#people): Get the picture of the person with id `<id>`. *For privacy, it's not available for every person*.
 
-  *For privacy, it's not available for every person*.
+### Series
+
+- GET [/series/list.json](https://brmdb.github.io/brmdb-data/series/list.json): Index all series with their ID and name, ideal for search.
+- GET [/series/all.json](https://brmdb.github.io/brmdb-data/series/all.json): List all publishers with all main attributes.
+- GET [/series/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/series/70aa9e2a-944a-4915-a847-073f8f111fc7.json): Get the information from the serie with id `<id>`.
+- GET [/series/images/&lt;type&gt;/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/series/images/poster/70aa9e2a-944a-4915-a847-073f8f111fc7.png): Get the image of the serie with id `<id>`, with `<type>` as `cover` or `poster`.
 
 ### Actions
 

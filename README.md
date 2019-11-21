@@ -21,27 +21,27 @@ You can do requests, like in an API, within the following routes.
 - GET [/publishers/list.json](https://brmdb.github.io/brmdb-data/publishers/list.json): Index all publishers with their ID and name, ideal for search.
 - GET [/publishers/all.json](https://brmdb.github.io/brmdb-data/publishers/all.json): List all publishers with all attributes.
 - GET [/publishers/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/publishers/c3b11ae5-0e74-4354-a92b-d0dd3d211ca5.json): Get the information from the publisher with id `<id>`.
-- GET [/publishers/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/publishers/images/c3b11ae5-0e74-4354-a92b-d0dd3d211ca5.png): Get the logo of the publisher with id `<id>`.
+- GET [/publishers/images/&lt;id&gt;.jpg](https://brmdb.github.io/brmdb-data/publishers/images/c3b11ae5-0e74-4354-a92b-d0dd3d211ca5.jpg): Get the logo of the publisher with id `<id>`.
 
 ### Labels
 
 - GET [/labels/all.json](https://brmdb.github.io/brmdb-data/labels/all.json): List all labels with all attributes.
 - GET [/labels/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/labels/b041096a-cc16-4d44-b43e-d3fbafa94a42.json): Get the information from the label with id `<id>`.
-- GET [/labels/images/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/labels/images/b041096a-cc16-4d44-b43e-d3fbafa94a42.png): Get the logo of the label with id `<id>`.
+- GET [/labels/images/&lt;id&gt;.jpg](https://brmdb.github.io/brmdb-data/labels/images/b041096a-cc16-4d44-b43e-d3fbafa94a42.jpg): Get the logo of the label with id `<id>`.
 
 ### People
 
 - GET [/people/list.json](https://brmdb.github.io/brmdb-data/people/list.json): Index all people with their ID and name, ideal for search.
 - GET [/people/all.json](https://brmdb.github.io/brmdb-data/people/all.json): List all people with all attributes.
 - GET [/people/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/people/6978ec19-337a-485d-8339-b3eaa7b8daf4.json): Get the information from the person with id `<id>`.
-- GET [/people/images/&lt;id&gt;.png](#people): Get the picture of the person with id `<id>`. *For privacy, it's not available for every person*.
+- GET [/people/images/&lt;id&gt;.jpg](#people): Get the picture of the person with id `<id>`. *For privacy, it's not available for every person*.
 
 ### Series
 
 - GET [/series/list.json](https://brmdb.github.io/brmdb-data/series/list.json): Index all series with their ID and name, ideal for search.
 - GET [/series/all.json](https://brmdb.github.io/brmdb-data/series/all.json): List all publishers with all main attributes.
 - GET [/series/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/series/70aa9e2a-944a-4915-a847-073f8f111fc7.json): Get the information from the serie with id `<id>`.
-- GET [/series/images/&lt;type&gt;/&lt;id&gt;.png](https://brmdb.github.io/brmdb-data/series/images/poster/70aa9e2a-944a-4915-a847-073f8f111fc7.png): Get the image of the serie with id `<id>`, with `<type>` as `cover` or `poster`.
+- GET [/series/images/&lt;type&gt;/&lt;id&gt;.jpg](https://brmdb.github.io/brmdb-data/series/images/poster/70aa9e2a-944a-4915-a847-073f8f111fc7.jpg): Get the image of the serie with id `<id>`, with `<type>` as `cover` or `poster`.
 
 ### Editions
 

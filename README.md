@@ -50,7 +50,7 @@ You can do requests, like in an API, within the following routes.
 ### Volumes
 
 - GET [/volumes/&lt;id&gt;.json](https://brmdb.github.io/brmdb-data/volumes/477977f6-16c1-4b94-8dbc-e6ad9c0fb412.json): Get the information from the volume with id `<id>`.
-- GET [/volumes/isbn/&lt;isbn&gt;.json](https://brmdb.github.io/brmdb-data/volumes/9788545711865.json): Get the information from the volume with ISBN `<isbn>`.
+- GET [/volumes/isbn/&lt;isbn&gt;.json](https://brmdb.github.io/brmdb-data/volumes/isbn/9788545711865.json): Get the information from the volume with ISBN `<isbn>`.
 - GET [/volumes/issn/&lt;issn&gt;.json](#): Get the information from the volume with ISSN `<issn>`.
 - GET [/volumes/images/&lt;id&gt;.jpg](https://brmdb.github.io/brmdb-data/series/images/poster/70aa9e2a-944a-4915-a847-073f8f111fc7.jpg): Get the cover of the volume with id `<id>`.
 

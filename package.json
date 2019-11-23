@@ -1,0 +1,12 @@
+{
+  "name": "brmdb-data",
+  "version": "1.0.0",
+  "description": "All the data of the BrMDb project.",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "brmdb export"
+  },
+  "devDependencies": {
+    "brmdb-cli": "^0.0.2"
+  }
+}

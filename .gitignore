@@ -3,3 +3,6 @@ gh-pages.pub
 color.txt
 database.sqlite.bkp
 public/
+dist/
+node_modules
+images/

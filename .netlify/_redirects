@@ -1,0 +1,25 @@
+/ https://brmdb.github.io 301
+
+/actions/all /actions/all.json 200
+
+/editions/:id /editions/:id.json 200
+
+/labels/all /labels/all.json 200
+/labels/:id /labels/:id.json 200
+
+/people/all /people/all.json 200
+/people/search /people/list.json 200
+/people/:id /people/:id.json 200
+
+/publishers/all /publishers/all.json 200
+/publishers/search /publishers/list.json 200
+/publishers/:id /publishers/:id.json 200
+
+/series/all /series/all.json 200
+/series/search /series/list.json 200
+/series/:id /series/:id.json 200
+/series/slug/:slug /series/slug/:slug.json
+
+/volumes/:id /volumes/:id.json 200
+/volumes/isbn/:isbn /volumes/isbn/:isbn.json 200
+/volumes/issn/:issn /volumes/issn/:issn.json 200

@@ -4,7 +4,7 @@
   "description": "All the data of the BrMDb project.",
   "license": "MIT",
   "scripts": {
-    "deploy": "brmdb export"
+    "deploy": "brmdb export && cp .netlify/* dist/"
   },
   "devDependencies": {
     "brmdb-cli": "^0.0.2"

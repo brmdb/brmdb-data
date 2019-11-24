@@ -17,6 +17,7 @@
 
 /series/all /series/all.json 200
 /series/search /series/list.json 200
+/series/recent /series/recent.json 200
 /series/:id /series/:id.json 200
 /series/slug/:slug /series/slug/:slug.json
 

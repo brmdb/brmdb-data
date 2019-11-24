@@ -446,10 +446,10 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-brmdb-cli@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/brmdb-cli/-/brmdb-cli-0.0.7.tgz#7cb00ae66fc4cabcb0f44d73d668bc1faf401e96"
-  integrity sha512-k5Is2tfshmkMey1jNYm4HtQnSQRC8u8Lj7nqD5vuyGZ9NzCFjHqSFssNB64yLJpG5xmFpRbBKBi8NPizOw/XCA==
+brmdb-cli@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/brmdb-cli/-/brmdb-cli-0.0.8.tgz#50e65fe8056d29e634548e928c67d37c59c2f674"
+  integrity sha512-MeIZ0kmMB0CLbE4scZNBmAo4/KCo1rIwCWXYw86MboicMo0cGhmizeiW6o1+IrLKuxEnnxUK5vc71d4w4THtJw==
   dependencies:
     cli-table3 "^0.5.1"
     edit-briefly "^2.1.0"

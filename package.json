@@ -7,6 +7,6 @@
     "deploy": "brmdb export && cp .netlify/* dist/"
   },
   "devDependencies": {
-    "brmdb-cli": "^0.0.9"
+    "brmdb-cli": "^0.0.10"
   }
 }

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-USER=brmbd
-REPO=brmbd.github.io
+USER=brmdb
+REPO=brmdb.github.io
 MESSAGE="\"message\": \"Triggered by upstream build of brmdb/brmdb-data commit ${COMMIT_REF}\""
 
 body="{

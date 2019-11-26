@@ -8,6 +8,6 @@
     "postdeploy": "./trigger-travis.sh"
   },
   "devDependencies": {
-    "brmdb-cli": "^0.0.11"
+    "brmdb-cli": "^0.0.12"
   }
 }
